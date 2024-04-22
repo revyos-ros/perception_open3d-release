@@ -1,0 +1,12 @@
+Source: ros-jazzy-open3d-conversions
+Section: misc
+Priority: optional
+Maintainer: Pranay Mathur <matnay17@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake-copyright <!nocheck>, ament-cmake-cppcheck <!nocheck>, ament-cmake-cpplint <!nocheck>, ament-cmake-flake8 <!nocheck>, ament-cmake-googletest <!nocheck>, ament-cmake-lint-cmake <!nocheck>, ament-cmake-pep257 <!nocheck>, ament-cmake-ros, ament-cmake-uncrustify <!nocheck>, ament-cmake-xmllint <!nocheck>, ament-lint <!nocheck>, libeigen3-dev, libopen3d-dev, libsensor-msgs-dev, python3-sensor-msgs, ros-jazzy-rclcpp, ros-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-open3d-conversions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libopen3d-dev, libsensor-msgs-dev, python3-sensor-msgs, ros-jazzy-rclcpp, ros-sensor-msgs, ros-jazzy-ros-workspace
+Description: Provides conversion functions to and from Open3D datatypes
